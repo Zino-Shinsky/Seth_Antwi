@@ -9,7 +9,6 @@ body {
     line-height: 1.6;
     color: var(--text-dark);
     overflow-x: hidden;
-	background-color: red;
 }
 
 /* Color Variables */
@@ -2814,6 +2813,7 @@ video::-webkit-media-controls-timeline {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 30px;
+    padding: 10px;
 }
 
 .expertise-item {
@@ -3061,7 +3061,8 @@ video::-webkit-media-controls-timeline {
 
 .mechanical-tools-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     gap: 20px;
     margin-top: 20px;
 }
